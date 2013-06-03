@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<widget xmlns = "http://www.w3.org/ns/widgets"
+    xmlns:gap = "http://phonegap.com/ns/1.0"
+    id        = "com.phonegap.example"
+    version   = "1.0.0">
+
+<name>PhoneGap Build Application</name>
+
+<description>
+A simple PhoneGap Build application.
+</description>
+
+<author href="https://example.com" email="you@example.com">
+Your Name
+</author>
+
+<!-- retina iPad support: PhoneGap 2.5.0+ only -->
+<icon src="icons/ios/trails-icon.png" gap:platform="ios" width="144" height="144" />
+<preference name="phonegap-version" value="2.7.0" />
+<access origin="*"/>
+<preference name="load-url-timeout" value="60000" />
+
+</widget>

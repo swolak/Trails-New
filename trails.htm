@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>KML Layers</title>
+    <link href="default.css" rel="stylesheet">
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+    <script src="boulder_trails.js"></script>
+    <script>
+    	function onDeviceReady(){
+		    var map = new GoogleMap();
+		    map.initialize();
+		}
+		
+		function onBodyLoad(){	
+			//document.addEventListener("deviceready", onDeviceReady, false);
+			//document.addEventListener("load", onDeviceReady, false);
+		}
+    </script>
+  </head>
+  <body style="margin:0px; padding:0px;" onload="onDeviceReady()">
+    <div id="map_canvas"></div>
+  </body>
+</html>
+
